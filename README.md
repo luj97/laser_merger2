@@ -3,7 +3,7 @@ Muilti laser merger to pointcloud2 and laserScan for ROS2.
 
 ## Built with
 
-- ROS Foxy under Ubuntu 20.04 LTS
+- Ubuntu 22.04 with ROS2 Humble.
 
 ------
 
@@ -12,7 +12,7 @@ Muilti laser merger to pointcloud2 and laserScan for ROS2.
 ### Installation
 
 ``` bash
-$ git clone https://github.com/qaz9517532846/laser_merger2.git
+$ git clone https://github.com/luj97/laser_merger2.git
 ```
 
 ### ROS2 topic
