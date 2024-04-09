@@ -29,7 +29,5 @@ def generate_launch_description():
                         {'scan_time': 0.01},
                         {'angle_increment': 0.02},
                         {'inf_epsilon': 1.0},
-                        {'use_inf': True}],
-            remappings=[("scan_0", "/sick_s30b/laser/scan0"),
-                        ("scan_1", "/sick_s30b/laser/scan1")],),
+                        {'use_inf': True}],),
     ])

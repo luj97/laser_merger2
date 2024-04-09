@@ -30,6 +30,10 @@ find_package(pcl_conversions REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+include_directories(/opt/ros/humble/include/tf2_geometry_msgs)
+include_directories(/opt/ros/humble/include/tf2)
+include_directories(/opt/ros/humble/include/tf2_ros)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
